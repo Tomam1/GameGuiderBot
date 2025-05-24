@@ -1,0 +1,272 @@
+{
+    "start": {
+        "message": "текст сообщения",
+        "button_rows": 1,
+        "buttons": [
+            {
+                "name": "League of Legends", 
+                "row": 0,
+                "callback_data": "menu:lol"
+            },
+            {
+                "name": "Ready or Not", 
+                "row": 0,
+                "callback_data": "menu:ron"
+            },
+            {
+                "name": "Обратная связь", 
+                "row": 0,
+                "callback_data": "menu:feedback"
+            }
+        ]
+    },
+    "lol": {
+        "message": "текст сообщения",
+        "button_rows": 2,
+        "buttons": [
+            { 
+                "name": "Топ лэйн", 
+                "row": 0,
+                "callback_data": "menu:lol:guides:top_lane"
+            },
+            { 
+                "name": "Лес", 
+                "row": 0,
+                "callback_data": "menu:lol:guides:forest"
+            },
+            { 
+                "name": "Мид лэйн", 
+                "row": 0,
+                "callback_data": "menu:lol:guides:mid_lane"
+            },
+            { 
+                "name": "Бот лэйн", 
+                "row": 1,
+                "callback_data": "menu:lol:guides:bottom_lane"
+            },
+            { 
+                "name": "Саппорт", 
+                "row": 1,
+                "callback_data": "menu:lol:guides:support"
+            },
+            {
+                "name": "« Назад", 
+                "row": 1,
+                "callback_data": "menu:start"
+            }
+        ],
+        "guides": {
+            "top_lane": {
+                "message": "текст сообщения",
+                "button_rows": 3,
+                "buttons": [
+                    {
+                        "name": "Персонаж 1", 
+                        "row": 0,
+                        "callback_data": "guides:test"
+                    },
+                    {
+                        "name": "Персонаж 2", 
+                        "row": 1,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 3", 
+                        "row": 2,
+                        "callback_data": "guides:"
+                    },
+                    {
+                        "name": "« Назад", 
+                        "row": 2,
+                        "callback_data": "menu:lol"
+                    }
+                ]
+            },
+            "forest": {
+                "message": "текст сообщения",
+                "button_rows": 2,
+                "buttons": [
+                    { 
+                        "name": "Персонаж 1", 
+                        "row": 0,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 2", 
+                        "row": 1,
+                        "callback_data": "guides:"
+                    },
+                    {
+                        "name": "« Назад", 
+                        "row": 1,
+                        "callback_data": "menu:lol"
+                    }
+                ]
+            },
+            "mid_lane": {
+                "message": "dffsdf текст сообщения",
+                "button_rows": 3,
+                "buttons": [
+                    { 
+                        "name": "Персонаж 1", 
+                        "row": 0,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 2", 
+                        "row": 1,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 3", 
+                        "row": 2,
+                        "callback_data": "guides:"
+                    },
+                    {
+                        "name": "« Назад", 
+                        "row": 2,
+                        "callback_data": "menu:lol"
+                    }
+                ]
+            },
+            "bottom_lane": {
+                "message": "текст сообщения",
+                "button_rows": 2,
+                "buttons": [
+                    { 
+                        "name": "Персонаж 1",
+                        "row": 0,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 2",
+                        "row": 1,
+                        "callback_data": "guides:"
+                    },
+                    {
+                        "name": "« Назад",
+                        "row": 1,
+                        "callback_data": "menu:lol"
+                    }
+                ]
+            },
+            "support": {
+                "message": "текст сообщения",
+                "button_rows": 2,
+                "buttons": [
+                    { 
+                        "name": "Персонаж 1", 
+                        "row": 0,
+                        "callback_data": "guides:"
+                    },
+                    { 
+                        "name": "Персонаж 2", 
+                        "row": 1,
+                        "callback_data": "guides:"
+                    },
+                    {
+                        "name": "« Назад", 
+                        "row": 1,
+                        "callback_data": "menu:lol"
+                    }
+                ]
+            }
+        }
+    },
+    "ron": {
+        "message": "текст сообщения",
+        "button_rows": 2,
+        "buttons": [
+            { 
+                "name": "Гайды", 
+                "row": 0,
+                "callback_data": "menu:ron:guides"
+            },
+            { 
+                "name": "Сборки и состав команды", 
+                "row": 0,
+                "callback_data": "menu:ron:builds"
+            },
+            {
+                "name": "« Назад", 
+                "row": 1,
+                "callback_data": "menu:start"
+            }
+        ],
+        "guides": {
+            "message": "текст сообщения",
+            "button_rows": 2,
+            "buttons": [
+                { 
+                    "name": "Миссия 1", 
+                    "row": 0,
+                    "callback_data": "guides:"
+                },
+                { 
+                    "name": "Миссия 2", 
+                    "row": 0,
+                    "callback_data": "guides:"
+                },
+                { 
+                    "name": "Миссия 3", 
+                    "row": 1,
+                    "callback_data": "guides:"
+                },
+                {
+                    "name": "« Назад", 
+                    "row": 1,
+                    "callback_data": "menu:ron"
+                }
+            ]
+        },
+        "builds": {
+            "message": "текст сообщения",
+            "button_rows": 2,
+            "buttons": [
+                { 
+                    "name": "Команда 1",
+                    "row": 0,
+                    "callback_data": "guides:"
+                },
+                { 
+                    "name": "Команда 2",
+                    "row": 1,
+                    "callback_data": "guides:"
+                },
+                {
+                    "name": "« Назад", 
+                    "row": 1,
+                    "callback_data": "menu:ron"
+                }
+            ]
+        }
+    },
+    "feedback": {
+        "message": "текст сообщения",
+        "button_rows": 1,
+        "buttons": [
+            {
+                "name": "« В меню", 
+                "row": 0,
+                "callback_data": "menu:start"
+            }
+        ]
+    },
+    "guides": {
+        "test": [
+            "Тестовый заголовок",
+            "SEDJSFBHJFKFDSFKDVSFDVVVD\ndfgdfgdgdfgdg",
+            "IMAGE:https://media2.dev.to/dynamic/image/width=350%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.imgur.com%2FJRZZBkK.jpegCAPTION:подпись",
+            "IMAGE:https://media2.dev.to/dynamic/image/width=350%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fi.imgur.com%2FJRZZBkK.jpeg",
+            "RJEKDLSJFDSLAMJFSKLMJFKSKMLFSMKLDBFSKMVDBSVMKDBFS"
+        ],
+        "lol": {
+            "top_lane": {
+                "character_1": [
+                    "League OF Legends - Топ лэйн - Персонаж 1",
+                    ""
+                ]
+            }
+        }
+    }
+}
